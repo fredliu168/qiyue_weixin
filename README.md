@@ -1,7 +1,7 @@
 
 # 微信企业号应用二维码扫描获取内容DEMO
 
-环境:python 3.6
+开发环境:![python](https://img.shields.io/badge/python-3.6-ff69b4.svg)
 
 ```
 
@@ -18,6 +18,10 @@ pip install -r requirements.txt
 2018-5-3
 
 企业和应用信息在config里面配置
+
+接收消息服务器配置
+
+> http://wx.xxxx.com/weixin/callback
 
 # Demo
 
