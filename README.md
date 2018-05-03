@@ -19,3 +19,9 @@ pip install -r requirements.txt
 
 企业和应用信息在config里面配置
 
+# Demo
+
+实现功能,在菜单点击扫一扫功能实现读取二维码内容。
+
+![image](demo.jpg)
+
