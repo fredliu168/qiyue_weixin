@@ -1,0 +1,13 @@
+<xml>
+    <ToUserName><![CDATA[{{ toUser }}]]></ToUserName>
+    <FromUserName><![CDATA[{{ fromUser }}]]></FromUserName>
+    <CreateTime>{{ timestamp }}</CreateTime>
+    <MsgType><![CDATA[event]]></MsgType>
+    <AgentID>{{ agentid }}</AgentID>
+    <Event><![CDATA[scancode_waitmsg]]></Event>
+    <EventKey><![CDATA[qcode]]></EventKey>
+    <ScanCodeInfo>
+        <ScanType><![CDATA[qrcode]]></ScanType>
+        <ScanResult><![CDATA[{{scanResult}}]]></ScanResult>
+    </ScanCodeInfo>
+</xml>
